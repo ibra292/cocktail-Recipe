@@ -11,7 +11,7 @@ HTML
 CSS
 JavaScript
 Getting Started
-To view the application, visit the hosted GitHub link: https://github.com/yourusername/cocktail-recipe-finder
+To view the application, visit the hosted GitHub link: https://ibra292.github.io/cocktail-Recipe/
 
 To run the application on your local machine, simply download or clone the repository and open the index.html file in your web browser.
 
