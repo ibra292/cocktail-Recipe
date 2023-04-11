@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Cocktail Recipe Finder</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Cocktail Recipe Finder</h1>
+      <form id="search-form">
+        <input type="text" id="search-input" placeholder="Search by name or ingredient">
+        <button id="search_btn" type="submit">Search</button>
+      </form>
+    </header>
+    <main>
+      <div id="results"></div>
+      <div id="searched-cocktails">
+        <h2>Searched Cocktails</h2>
+        <ul id="searched-cocktails-list">
+          <li id="searched_item"></li>
+        </ul>
+      </div>
+      <div id="cocktails-row">
+        <div class="cocktail-column">
+          <h2>Popular Cocktail</h2>
+          <div id="popular-cocktail">
+            <ul id="popcocktails-list">
+              <!-- <li id="popcocktails-item"></li> -->
+            </ul>
+          </div>
+        </div>
+        <div class="cocktail-column">
+          <p>Generate random Cocktail</p>
+          <button id="rdm-button">Generate</button>
+          <div id="random-cocktail">
+            <!-- <img src="random-cocktail.jpg" alt="Random Cocktail">
+            <p>Cocktail name</p> -->
+            <p id="random-result"></p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div id="comment-section">
+        <h2>Comments</h2>
+        <form id="comment-form">
+          <input type="text" id="comment-input" placeholder="Add a comment...">
+          <button id="addcommentBtn" type="submit">Post</button>
+        </form>
+        <ul id="comments-list">
+          <li id="comment-item"></li>
+        </ul>
+      </div>
+      <div id="like-section">
+        <button id="like-button">Like</button>
+        <p id="like-counter">0</p>
+      </div>
+      <div id="like-section">
+        <button id="dislike-button">Dislike</button>
+        <p id="dislike-counter">0</p>
+      </div>
+    </footer>
+    <!-- <script src="app.js"></script> -->
+    <script src="index.js"></script>
+  </body>
+</html>
